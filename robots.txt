@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fujipepeo-pixel.github.io/card-navi-site/sitemap.xml

@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="「ポケモンカード」の商品一覧。楽天市場・Yahoo!ショッピングの商品59件を掲載。">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🏝️</text></svg>'>
+<meta property="og:title" content="ポケモンカード">
+<meta property="og:description" content="「ポケモンカード」の商品一覧。楽天市場・Yahoo!ショッピングの商品59件を掲載。">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ポケモンカード">
+<meta name="twitter:description" content="「ポケモンカード」の商品一覧。楽天市場・Yahoo!ショッピングの商品59件を掲載。">
+<meta property="og:image" content="https://thumbnail.image.rakuten.co.jp/@0_mall/toysprime/cabinet/imgrc0105141875.jpg?_ex=400x400">
+<meta name="twitter:image" content="https://thumbnail.image.rakuten.co.jp/@0_mall/toysprime/cabinet/imgrc0105141875.jpg?_ex=400x400">
+<title>ポケモンカード</title>
+<style>
+  @view-transition {
+    navigation: auto;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    ::view-transition-group(*),
+    ::view-transition-old(*),
+    ::view-transition-new(*) {
+      animation: none !important;
+    }
+  }
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 24px 16px 64px;
+    background: linear-gradient(135deg, #ff5f6d, #ffc371, #f9f871, #6fe3a0, #4fd0e9, #6a8dff, #b06ae0);
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    color: #222;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1200px; margin: 0 auto; }
+  h1 {
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    text-stroke: 1px #000;
+    text-shadow:
+      -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000,
+      -1px 0 0 #000, 1px 0 0 #000,
+      -1px 1px 0 #000, 0 1px 0 #000, 1px 1px 0 #000,
+      0 3px 5px rgba(0,0,0,0.3);
+  }
+  h1 { font-size: 2.5rem; font-weight: 800; text-align: center; margin: 0 0 8px; }
+  .subtitle {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto 24px;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+    background: rgba(255,255,255,0.35);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.55);
+    border-radius: 999px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  }
+  .subtitle-text {
+    background: linear-gradient(90deg, #ff5f6d, #ffa53d, #f4d03f, #2ecc71, #3498db, #9b59b6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: 800;
+  }
+  .updated { text-align: center; font-size: 0.75rem; margin-bottom: 24px; color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.25); }
+  #product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    text-decoration: none;
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+  }
+  .card:active { transform: translateY(-2px); }
+  .card img {
+    width: 100%;
+    height: 190px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #f5f5f5;
+    margin-bottom: 10px;
+  }
+  .card .body { min-width: 0; flex: 1; display: flex; flex-direction: column; }
+  .card .top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .card .brand { font-size: 0.75rem; color: #888; font-weight: 600; }
+  .badge {
+    font-size: 0.68rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: #eee;
+    color: #555;
+    white-space: nowrap;
+  }
+  .badge.rakuten { background: #ffe4e4; color: #bf1e2e; }
+  .badge.yahoo { background: #fff0d6; color: #b45f00; }
+  .event-badge {
+    position: absolute;
+    top: -8px;
+    left: 8px;
+    background: linear-gradient(90deg, #ff5f6d, #ff9f43);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 3px 10px;
+    border-radius: 999px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .event-badge { animation: softPulse 2.4s ease-in-out infinite; }
+  }
+  @keyframes softPulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.72; } }
+  .card .title {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 6px 0;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card .review { font-size: 0.75rem; color: #e8a400; margin-bottom: 2px; }
+  .card .review .count { color: #999; margin-left: 4px; }
+  .card .price { font-size: 1.05rem; font-weight: 700; }
+  .empty { text-align: center; color: #fff; padding: 48px 0; background: rgba(255,255,255,0.15); border-radius: 12px; }
+  .related-posts {
+    max-width: 640px;
+    margin: 32px auto 0;
+    padding: 20px 24px;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+  .related-posts-heading {
+    margin: 0 0 10px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #222;
+  }
+  .related-posts-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .related-posts-list a {
+    display: block;
+    padding: 8px 4px;
+    font-size: 0.88rem;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .related-posts-list li:last-child a { border-bottom: none; }
+  .related-posts-list a:hover { color: #ff5f6d; }
+  .pr-note {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 32px auto 0;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #222;
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.7);
+    border-radius: 999px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  }
+  /* 消費者庁のステマ規制Q&Aで「消費者が実際に気付く位置・大きさ・色」が求められているため、
+     ページ末尾のpr-noteだけでなく、閲覧開始時点で目に入る冒頭にも同内容を表示する。 */
+  .pr-note-top {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #222;
+    background: rgba(255,255,255,0.9);
+    border-left: 4px solid #ff9f43;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  }
+  .back-link {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto 24px;
+    padding: 8px 18px;
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #222;
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 999px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+    text-decoration: none;
+  }
+  .genre-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+  }
+  .genre-list a {
+    display: block;
+    height: 100%;
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    text-decoration: none;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+  }
+  .genre-list a:active { transform: translateY(-2px); }
+  .genre-list .genre-title { font-size: 1rem; font-weight: 700; }
+  .genre-list .genre-count { font-size: 0.8rem; color: #888; margin-top: 4px; }
+  .pickup-section { margin-bottom: 28px; }
+  .pickup-heading {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 14px;
+    padding: 6px 22px;
+    text-align: center;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 999px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  }
+  .pickup-heading-text {
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    background: linear-gradient(90deg, #ff5f6d, #ffa53d, #f4d03f, #2ecc71, #3498db, #9b59b6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  .pickup-scroll {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 4px 2px 10px;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+  .pickup-card {
+    flex: 0 0 160px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 16px;
+    padding: 10px;
+    text-decoration: none;
+    color: #222;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.22);
+    border: 2px solid rgba(255,255,255,0.7);
+    scroll-snap-align: start;
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+  }
+  .pickup-card:active { transform: translateY(-2px); }
+  .pickup-card img { width: 100%; height: 120px; object-fit: contain; border-radius: 10px; margin-bottom: 8px; background: #f5f5f5; }
+  .a8-banner-section { margin-bottom: 28px; }
+  .a8-banner-heading {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 14px;
+    padding: 6px 22px;
+    text-align: center;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 999px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  }
+  .a8-banner-heading-text {
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    background: linear-gradient(90deg, #ff5f6d, #ffa53d, #f4d03f, #2ecc71, #3498db, #9b59b6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  .a8-banner-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+  .a8-banner-item {
+    background: rgba(255,255,255,0.9);
+    border-radius: 16px;
+    padding: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.22);
+    border: 2px solid rgba(255,255,255,0.7);
+    text-align: center;
+    width: 280px;
+  }
+  /* A8.netのバナーはほとんどが広告主側で完成済みの画像(300x250や1500x360等、比率は様々)なので、
+     デフォルトでは切り抜かず、幅に対して高さを自動計算して全体をそのまま表示する
+     (object-fit: coverで正方形に切り抜くと、端に寄った文字やロゴが見切れてしまうため)。 */
+  .a8-banner-media {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .a8-banner-media a { display: block; width: 100%; }
+  .a8-banner-media a img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  /* 例外: 商品写真をそのまま流用したバナー(StyleOnMe等)は、縦長で余白の多い構図になりがちなため、
+     `layout: "cover"`を指定した時だけ正方形の枠に切り抜いて掲載する(上部優先表示)。 */
+  .a8-banner-item.cover { width: 220px; }
+  .a8-banner-item.cover .a8-banner-media { height: 220px; }
+  .a8-banner-item.cover .a8-banner-media a { height: 100%; }
+  .a8-banner-item.cover .a8-banner-media a img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+  .a8-banner-brand {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #ff5f6d;
+    margin-bottom: 4px;
+  }
+  .a8-banner-copy {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.5;
+  }
+  .pickup-badge {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff5f6d, #ffa53d);
+    color: #fff;
+    font-size: 0.62rem;
+    font-weight: 800;
+    padding: 2px 9px;
+    border-radius: 999px;
+    margin-bottom: 6px;
+  }
+  .pickup-genre { font-size: 0.68rem; color: #888; margin-bottom: 2px; }
+  .pickup-name {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 2px 0 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .pickup-price { font-size: 1.05rem; font-weight: 800; color: #e0245e; }
+  .pickup-card .review { font-size: 0.72rem; color: #e8a400; margin: 0 0 4px; }
+  .pickup-card .review .count { color: #999; margin-left: 4px; }
+  .search-box {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto 20px;
+    padding: 12px 18px;
+    font-size: 1rem;
+    color: #222;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid rgba(255,255,255,0.7);
+    border-radius: 999px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    outline: none;
+  }
+  .search-box::placeholder { color: #888; }
+  .search-count { text-align: center; font-size: 0.8rem; color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.25); margin-bottom: 16px; }
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  .toolbar select, .toolbar input[type="number"] {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    color: #222;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid rgba(255,255,255,0.7);
+    border-radius: 999px;
+    outline: none;
+  }
+  .toolbar input[type="number"] { width: 110px; }
+  .load-more {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 32px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #222;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid rgba(255,255,255,0.7);
+    border-radius: 999px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    cursor: pointer;
+  }
+  .genre-nav {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 4px 2px 16px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .genre-nav a {
+    flex: 0 0 auto;
+    padding: 6px 14px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #222;
+    background: rgba(255,255,255,0.55);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 999px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+  .blog-filter {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 4px 2px 16px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .blog-filter button {
+    flex: 0 0 auto;
+    padding: 6px 14px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    font-family: inherit;
+    color: #222;
+    background: rgba(255,255,255,0.55);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 999px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+  .blog-filter button.active {
+    background: rgba(255,255,255,0.95);
+    font-weight: 800;
+  }
+  .blog-genre-badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: #666;
+    background: rgba(0,0,0,0.06);
+    padding: 2px 9px;
+    border-radius: 999px;
+    margin-bottom: 6px;
+  }
+  .genre-nav a.current { background: rgba(255,255,255,0.95); box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+  .genre-intro {
+    background: rgba(255,255,255,0.75);
+    border-radius: 12px;
+    padding: 14px 18px;
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .ranking-section { margin-bottom: 24px; }
+  .ranking-section .pickup-scroll { justify-content: center; flex-wrap: wrap; }
+  .ranking-pr-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .ranking-pr-row .ranking-section,
+  .ranking-pr-row .a8-banner-section {
+    margin-bottom: 0;
+  }
+  .rank-card { position: relative; }
+  .rank-number {
+    position: absolute;
+    top: -10px;
+    left: -6px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ffd76a, #ff9f43);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 800;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  }
+  .site-footer { text-align: center; margin-top: 40px; font-size: 0.75rem; }
+  .site-footer a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    padding-bottom: 2px;
+  }
+  .site-footer a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    height: 1px;
+    background: currentColor;
+    transition: right 0.25s ease;
+  }
+  .legal-content {
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 16px;
+    padding: 28px 30px;
+    font-size: 0.92rem;
+    line-height: 1.9;
+    color: #333;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+  .legal-content h2 {
+    font-size: 1.05rem;
+    margin: 28px 0 10px;
+    padding-left: 12px;
+    border-left: 4px solid #ff9f43;
+    color: #222;
+  }
+  .legal-content h2:first-child { margin-top: 0; }
+  .legal-content ul { margin: 4px 0; padding-left: 1.4em; }
+  .legal-content p { margin: 0 0 12px; }
+  .blog-hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 4px 0 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  }
+  .reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: linear-gradient(90deg, #ff5f6d, #ffa53d, #f4d03f, #2ecc71, #3498db, #9b59b6);
+    z-index: 999;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: scroll()) {
+      @keyframes growReadingProgress {
+        from { transform: scaleX(0); }
+        to { transform: scaleX(1); }
+      }
+      .reading-progress {
+        animation: growReadingProgress linear;
+        animation-timeline: scroll(root block);
+      }
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    /* scroll-timeline未対応ブラウザ向けフォールバック: 読み込み時に一度だけフェードインする
+       (対応ブラウザでは下のanimation-timeline: view()版が使われ、こちらは@supports notで無効化される)。 */
+    @supports not (animation-timeline: view()) {
+      #product-list .card,
+      .pickup-scroll .pickup-card,
+      .genre-list li > a {
+        animation: fadeInUp 0.5s ease both;
+      }
+    }
+    /* scroll-timeline対応ブラウザ: スクロールでカードが画面に入ってくるたびに毎回ふわっと表示する
+       (JS不要・GPUアクセラレーション、2026年時点でChromiumが対応)。 */
+    @supports (animation-timeline: view()) {
+      #product-list .card,
+      .pickup-scroll .pickup-card,
+      .genre-list li > a {
+        animation: fadeInUp linear both;
+        animation-timeline: view();
+        animation-range: entry 0% cover 35%;
+      }
+    }
+  }
+@media (prefers-reduced-motion: no-preference) {
+@supports not (animation-timeline: view()) {
+  #product-list .card:nth-child(1), .pickup-scroll .pickup-card:nth-child(1), .genre-list li:nth-child(1) > a { animation-delay: 0.045s; }
+  #product-list .card:nth-child(2), .pickup-scroll .pickup-card:nth-child(2), .genre-list li:nth-child(2) > a { animation-delay: 0.090s; }
+  #product-list .card:nth-child(3), .pickup-scroll .pickup-card:nth-child(3), .genre-list li:nth-child(3) > a { animation-delay: 0.135s; }
+  #product-list .card:nth-child(4), .pickup-scroll .pickup-card:nth-child(4), .genre-list li:nth-child(4) > a { animation-delay: 0.180s; }
+  #product-list .card:nth-child(5), .pickup-scroll .pickup-card:nth-child(5), .genre-list li:nth-child(5) > a { animation-delay: 0.225s; }
+  #product-list .card:nth-child(6), .pickup-scroll .pickup-card:nth-child(6), .genre-list li:nth-child(6) > a { animation-delay: 0.270s; }
+  #product-list .card:nth-child(7), .pickup-scroll .pickup-card:nth-child(7), .genre-list li:nth-child(7) > a { animation-delay: 0.315s; }
+  #product-list .card:nth-child(8), .pickup-scroll .pickup-card:nth-child(8), .genre-list li:nth-child(8) > a { animation-delay: 0.360s; }
+  #product-list .card:nth-child(9), .pickup-scroll .pickup-card:nth-child(9), .genre-list li:nth-child(9) > a { animation-delay: 0.405s; }
+  #product-list .card:nth-child(10), .pickup-scroll .pickup-card:nth-child(10), .genre-list li:nth-child(10) > a { animation-delay: 0.450s; }
+  #product-list .card:nth-child(11), .pickup-scroll .pickup-card:nth-child(11), .genre-list li:nth-child(11) > a { animation-delay: 0.495s; }
+  #product-list .card:nth-child(12), .pickup-scroll .pickup-card:nth-child(12), .genre-list li:nth-child(12) > a { animation-delay: 0.540s; }
+}
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card:hover { transform: translateY(-5px); box-shadow: 0 12px 26px rgba(0,0,0,0.16); }
+  .genre-list a:hover { transform: translateY(-5px); box-shadow: 0 12px 26px rgba(0,0,0,0.16); }
+  .pickup-card:hover { transform: translateY(-5px); box-shadow: 0 14px 28px rgba(0,0,0,0.28); }
+  .genre-nav a:hover { background: rgba(255,255,255,0.85); transform: translateY(-2px); }
+  .site-footer a:hover::after { right: 0; }
+}
+
+/* スマホ幅向けの微調整: 余白・タップ領域を確保する(明示的なモバイル用ブレークポイントが
+   これまで無かったため追加)。 */
+@media (max-width: 480px) {
+  body { padding: 16px 12px 48px; }
+  h1 { font-size: 2rem; }
+  .toolbar select, .toolbar input[type="number"] { padding: 12px 14px; }
+  .toolbar input[type="number"] { width: 46%; max-width: 140px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<a class="back-link" href="index.html">&larr; ジャンル一覧に戻る</a>
+<nav class="genre-nav">
+<a href="pokemon-card.html" class="current">ポケモンカード</a>
+<a href="yugioh-card.html">遊戯王カード</a>
+<a href="sports-card.html">スポーツカード</a>
+<a href="onepiece-card.html">ワンピースカード</a>
+</nav>
+<h1>ポケモンカード</h1>
+<p class="subtitle"><span class="subtitle-text">「ポケモンカード」の商品一覧(全59件)</span></p>
+<p class="updated">最終更新: 2026-08-30 14:51</p>
+<p class="pr-note-top">本ページのリンクには一部アフィリエイトリンクが含まれます(#PR)。</p>
+<p class="genre-intro">ポケモンカードは新弾の発売直後や人気キャラクターのカードほど品薄になりやすく、店舗によって価格差も出やすいジャンルです。このページでは楽天市場・Yahoo!ショッピングの商品を横断的に集め、選び方の参考になる情報をまとめています。</p>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "ポケモンカードのランキングTOP3", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "ポケモンカード くじ シュリンク付 ポケモン 第37弾 ポケモンカード BOXくじ 未開封シュリンク BOX 全500口 バトルパートナーズ アビスアイ", "url": "https://hb.afl.rakuten.co.jp/hgc/g00u5wsn.ygcj4d87.g00u5wsn.ygcj5ad5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoysprime%2Fbox-k-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftoysprime%2Fi%2F10001996%2F&rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41", "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/toysprime/cabinet/imgrc0105141875.jpg?_ex=400x400", "offers": {"@type": "Offer", "url": "https://hb.afl.rakuten.co.jp/hgc/g00u5wsn.ygcj4d87.g00u5wsn.ygcj5ad5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoysprime%2Fbox-k-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftoysprime%2Fi%2F10001996%2F&rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41", "priceCurrency": "JPY", "availability": "https://schema.org/InStock", "price": "15980"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.4", "reviewCount": "1612"}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "SPICA マグネットローダー UV99.8%カット トレカ 収納 ケース 35pt スリーブ カードローダー トレカケース ポケモンカード ポケカ オリパ 遊戯王 ワンピースカード デュエマ ドラゴンボールヒーローズ topps bbm mtg コレクション トレーディングカード 保護 保管 UVカット", "url": "https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fmgc%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000003%2F&rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41", "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/magnet-loader/rakutenmgc2.jpg?_ex=400x400", "offers": {"@type": "Offer", "url": "https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fmgc%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000003%2F&rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41", "priceCurrency": "JPY", "availability": "https://schema.org/InStock", "price": "970"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "1208"}}}, {"@type": "ListItem", "position": 3, "item": {"@type": "Product", "name": "ポケモンカードゲーム バイオレット＆スカーレット ハイクラスパック・シャイニートレジャー 2~10パックセット", "url": "https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fpoke-233492%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000564%2F&rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41", "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/imgrc0117839815.jpg?_ex=400x400", "offers": {"@type": "Offer", "url": "https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fpoke-233492%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000564%2F&rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41", "priceCurrency": "JPY", "availability": "https://schema.org/InStock", "price": "9800"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.6", "reviewCount": "780"}}}]}</script>
+<div class="ranking-section">
+<p class="pickup-heading"><span class="pickup-heading-text">ランキング TOP3</span></p>
+<div class="pickup-scroll">
+<a class="pickup-card rank-card" href="https://hb.afl.rakuten.co.jp/hgc/g00u5wsn.ygcj4d87.g00u5wsn.ygcj5ad5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoysprime%2Fbox-k-1%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Ftoysprime%2Fi%2F10001996%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored">
+  <span class="rank-number">1</span>
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/toysprime/cabinet/imgrc0105141875.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="pickup-name">ポケモンカード くじ シュリンク付 ポケモン 第37弾 ポケモンカード BOXくじ 未開封シュリンク BOX 全500口 バトルパートナーズ アビスアイ</div>
+    <div class="review">★4.4<span class="count">(1,612件)</span></div>
+  <div class="pickup-price">¥15,980</div>
+</a>
+
+<a class="pickup-card rank-card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fmgc%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000003%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored">
+  <span class="rank-number">2</span>
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/magnet-loader/rakutenmgc2.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="pickup-name">SPICA マグネットローダー UV99.8%カット トレカ 収納 ケース 35pt スリーブ カードローダー トレカケース ポケモンカード ポケカ オリパ 遊戯王 ワンピースカード デュエマ ドラゴンボールヒーローズ topps bbm mtg コレクション トレーディングカード 保護 保管 UVカット</div>
+    <div class="review">★4.8<span class="count">(1,208件)</span></div>
+  <div class="pickup-price">¥970</div>
+</a>
+
+<a class="pickup-card rank-card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fpoke-233492%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000564%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored">
+  <span class="rank-number">3</span>
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/imgrc0117839815.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="pickup-name">ポケモンカードゲーム バイオレット＆スカーレット ハイクラスパック・シャイニートレジャー 2~10パックセット</div>
+    <div class="review">★4.6<span class="count">(780件)</span></div>
+  <div class="pickup-price">¥9,800</div>
+</a>
+
+</div>
+</div>
+<div class="toolbar">
+<input type="search" class="search-box" id="search-box" placeholder="商品名・ブランド名で絞り込み" autocomplete="off">
+<select id="sort-select">
+  <option value="recent">新着順</option>
+  <option value="price-asc">価格が安い順</option>
+  <option value="price-desc">価格が高い順</option>
+</select>
+<input type="number" id="price-min" placeholder="最低価格" min="0">
+<input type="number" id="price-max" placeholder="最高価格" min="0">
+</div>
+<p class="search-count" id="search-count"></p>
+<div id="product-list">
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00u5wsn.ygcj4d87.g00u5wsn.ygcj5ad5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoysprime%2Fbox-k-1%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Ftoysprime%2Fi%2F10001996%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="15980" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/toysprime/cabinet/imgrc0105141875.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">トイズプライム</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカード くじ シュリンク付 ポケモン 第37弾 ポケモンカード BOXくじ 未開封シュリンク BOX 全500口 バトルパートナーズ アビスアイ</div>
+    <div class="review">★4.4<span class="count">(1,612件)</span></div>
+    <div class="price">¥15,980</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fmgc%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000003%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="970" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/magnet-loader/rakutenmgc2.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SPICA トレカサプライ 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">SPICA マグネットローダー UV99.8%カット トレカ 収納 ケース 35pt スリーブ カードローダー トレカケース ポケモンカード ポケカ オリパ 遊戯王 ワンピースカード デュエマ ドラゴンボールヒーローズ topps bbm mtg コレクション トレーディングカード 保護 保管 UVカット</div>
+    <div class="review">★4.8<span class="count">(1,208件)</span></div>
+    <div class="price">¥970</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fpoke-233492%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000564%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="9800" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/imgrc0117839815.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカードゲーム バイオレット＆スカーレット ハイクラスパック・シャイニートレジャー 2~10パックセット</div>
+    <div class="review">★4.6<span class="count">(780件)</span></div>
+    <div class="price">¥9,800</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ulf9n.ygcj4d8a.g00ulf9n.ygcj5647/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdiaxino%2F2024-0803-001-317-543%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fdiaxino%2Fi%2F10000015%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1650" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/diaxino/cabinet/11312850/19.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">DIAXINO ディアクシーノ 公式</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【楽天1位30冠獲得！】【レビューでマグネットローダープレゼント!】 トレカ ファイル カードファイル トレカケース ポケモンカード ポケカ 収納 ケース カードバインダー カードホルダー カードケース トレカホルダー トレカケース トレカ 大容量 遊戯王 400枚 900枚 防水</div>
+    <div class="review">★4.8<span class="count">(766件)</span></div>
+    <div class="price">¥1,650</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Foripa001%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000523%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1780" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/imgrc0117836646.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">レイジングサーフ 封入開始 ポケモンカード くじ イーブイヒーローズ ポケモンカード151 クレイバースト 5パックくじ VSTARユニバース 全100口 オリパ パック 古代の咆哮・ポケカくじ</div>
+    <div class="review">★4.4<span class="count">(581件)</span></div>
+    <div class="price">¥1,780</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fuv-sleeve%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000014%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1060" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/uv-sleeve/11252776/0uvtoreka3.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SPICA トレカサプライ 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">SPICA トレカスリーブ UVカット 100枚 カードスリーブ スタンダードサイズ用 ぴったり トレカケース ポケカ ポケモンカードケース インナースリーブ キャラスリ ポケモンカードゲーム ワンピースカードゲーム マグネットローダー オリパ コレクション トレーディングカード</div>
+    <div class="review">★4.8<span class="count">(567件)</span></div>
+    <div class="price">¥1,060</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00u8yan.ygcj4c32.g00u8yan.ygcj507f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshiningstars%2Fa009%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fshiningstars%2Fi%2F10000008%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1950" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/shiningstars/cabinet/imgrc0118363676.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">Shining Stars</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【デイリー、週間ランキング1位　計52回獲得！】 カードファイル トレカケース トレーディングカード ポケモンカード カードバインダー トレカ カードケース カード収納 黒 防水 トレカホルダー 保管 トレカ 収納 ポケモンカード ケース</div>
+    <div class="review">★4.8<span class="count">(538件)</span></div>
+    <div class="price">¥1,950</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00unq6n.ygcj4a6a.g00unq6n.ygcj5c5d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsyochikudo12%2Fpackkuji%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fsyochikudo12%2Fi%2F10000118%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2780" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/syochikudo12/cabinet/11113845/11113850/imgrc0110390776.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">松竹堂</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【ハイクラスパック1パック確定封入！】 ポケモンカード パックくじ アソート 5～10パックセット くじ アソートくじ MEGAドリームex 詰め合わせ 新品未開封 福袋 オリパ 年末年始</div>
+    <div class="review">★4.6<span class="count">(497件)</span></div>
+    <div class="price">¥2,780</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2F10000394%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000394%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="14800" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/imgrc0118333644.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【即日配送】 ポケモンカード151 ポケモンカードゲーム スカーレット&amp;バイオレット 5パック 10パック 強化拡張パック ポケカ　ミュウ　カントー地方 ばら売り・151</div>
+    <div class="review">★4.6<span class="count">(482件)</span></div>
+    <div class="price">¥14,800</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uhywn.ygcj4e2b.g00uhywn.ygcj551d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsiba-98%2Fkd-01-10%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fsiba-98%2Fi%2F10000010%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1000" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/siba-98/cabinet/09996188/10474505/imgrc0112725213.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SIBA 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【UVカット99.8％】アクリル本舗 マグネットローダー 35pt 4枚 8枚セット UVカット カードローダー ポケカ ケース ポケモンカード マグネットホルダー トレーディングカード スタンド トレカケース スリーブ 遊戯王 保護 保管 コレクション 収納 防水</div>
+    <div class="review">★4.7<span class="count">(477件)</span></div>
+    <div class="price">¥1,000</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fkuzi-psuaia%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000627%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1380" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/10620272/imgrc0119556270.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【レビューキャンペーン実施中】ポケモンカード くじ アソートくじ オリジナルパック 5パックセット カードゲーム トレカ　VSTARユニバース シャイニートレジャーなどあたり続々 全国送料無料 全100口 当たり確率40%オーバー・アソート ポケモン</div>
+    <div class="review">★4.4<span class="count">(448件)</span></div>
+    <div class="price">¥1,380</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00u7dxn.ygcj4585.g00u7dxn.ygcj509e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoysbox2nd%2Fcard-randombox-p-001%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Ftoysbox2nd%2Fi%2F10013374%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="14400" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/toysbox2nd/cabinet/biiino/item/main-image/20260731004956_1.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">ソフィアゲート</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">クーポンあり！ ストームエメラルダ登場！ 20％以上が当たり！ 第18弾 ポケモンカード BOXくじ 全200口 未開封シュリンク付き BOX ポケカ ポケモンカードゲーム オリパ 福袋</div>
+    <div class="review">★4.2<span class="count">(398件)</span></div>
+    <div class="price">¥14,400</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ufl1n.ygcj4893.g00ufl1n.ygcj594c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frimina%2Fr-182ocshk01-10%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Frimina%2Fi%2F10000005%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="980" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/rimina/cabinet/imgrc0115886332.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">RIMINA公式 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">本日限定！10%OFF/ポケモンカード BOX 保護ケース 10個セット ポケカ ボックスケース ローダー 保管用ケース UVカット 10個 BOXローダー セミハードローダー コレクター RIMINA</div>
+    <div class="review">★4.8<span class="count">(387件)</span></div>
+    <div class="price">¥980</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fcard-file%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000004%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2760" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/cardfile/9pocket/after2.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SPICA トレカサプライ 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">SPICA カードファイル PUレザー トレカファイル カードスリーブごと 収納 9ポケット 360枚 トレカ ファイル トレカケース カードバインダー トレーディングカード アルバム ポケモンカードケース ポケカ オリパ ワンピースカード 遊戯王 デュエマ 大容量 コレクション 防水</div>
+    <div class="review">★4.8<span class="count">(374件)</span></div>
+    <div class="price">¥2,760</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00tysvn.ygcj44b4.g00tysvn.ygcj5703/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fykstore%2F10000362%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fykstore%2Fi%2F10000362%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="648" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/ykstore/cabinet/11565317/wqqq.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">YKSTORE 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">トレカケース リフィル コレクトブック シール帳 レフィル 10枚セット バインダー A5 6穴 替え ファイル トレカ クリアファイル 収納 トレカ収納 デコ チェキ 写真 手帳 透明 推し活 オタ活 ヲタ活 ポケカ k-pop アイドル 遊戯王 コレクション 送料無料</div>
+    <div class="review">★4.9<span class="count">(351件)</span></div>
+    <div class="price">¥648</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fex293948219%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10001087%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2100" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/10620272/imgrc0129824024.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカード ハイクラスパック MEGAドリームex ポケカ 5パック 10パック ばら売り ・メガドリーム 全国送料無料</div>
+    <div class="review">★4.6<span class="count">(314件)</span></div>
+    <div class="price">¥2,100</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00tw2jn.ygcj41be.g00tw2jn.ygcj5c76/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyum-yum%2F4521329431932%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fyum-yum%2Fi%2F10001888%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="16280" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/yum-yum/cabinet/4521329431932.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">イーバリュー楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカードゲーム MEGAドリームex BOX MEGA ハイクラスパック 新品未開封 シュリンク付き</div>
+    <div class="review">★4.6<span class="count">(303件)</span></div>
+    <div class="price">¥16,280</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ti7yn.ygcj4cb4.g00ti7yn.ygcj57cf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmakisuncome%2Fss-zbkm001%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fmakisuncome%2Fi%2F10001074%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2380" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/makisuncome/cabinet/11126180/compass1780308487.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">オンリーワンギフト楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【即納★楽天1位】ポケモンカード ファイル 収納ケース 大容量 900枚 400枚 入れカードファイル カード ファイル トレカ カードシート 4ポケット トレカケース コレクションカード スターカード マルチケース トレカ</div>
+    <div class="review">★4.8<span class="count">(303件)</span></div>
+    <div class="price">¥2,380</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uhntn.ygcj430a.g00uhntn.ygcj56b9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fattobooks-hirakata%2Fatbks_box_oripa1%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fattobooks-hirakata%2Fi%2F10000120%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="14980" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/attobooks-hirakata/cabinet/imgrc0094422008.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">キーストン</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカード ポケカ 正規販売店 BOX オリパ ポケカBOX くじ 全500口 新品 box 安心 丁寧梱包 ポケカ【第12弾】 福袋 オリパ</div>
+    <div class="review">★4.0<span class="count">(299件)</span></div>
+    <div class="price">¥14,980</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2F10000431%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000431%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2800" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/imgrc0114281875.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【即納】ポケモンカードゲーム・黒炎の支配者 5パックセット スカーレット&amp;バイオレット 拡張パック リザードン テラスタル ポケカ バラ売り 送料無料</div>
+    <div class="review">★4.5<span class="count">(298件)</span></div>
+    <div class="price">¥2,800</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ubhen.ygcj4826.g00ubhen.ygcj5df0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftradeline%2F06%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Ftradeline%2Fi%2F10000012%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1180" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/tradeline/cabinet/roader/imgrc0088319919.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">TRADE LINE</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">マグネットローダー マグネット ローダー カードローダー トレカ 35pt ローダー トレカケース ポケカ ポケモンカード ポケモンカードケース 遊戯王 保護 防湿 保管 コレクション 収納 トレーディングカード UVカット マグネッ</div>
+    <div class="review">★4.7<span class="count">(289件)</span></div>
+    <div class="price">¥1,180</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00u7dxn.ygcj4585.g00u7dxn.ygcj509e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoysbox2nd%2Fcard-randompack-p-003%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Ftoysbox2nd%2Fi%2F10013476%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1490" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/toysbox2nd/cabinet/goq003/4918_1.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">ソフィアゲート</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">クーポンあり！ 1口5パック入り アソートポケモンカードパック くじ 新品未開封 福袋 オリパ オリジナルパック ガチャ</div>
+    <div class="review">★4.5<span class="count">(282件)</span></div>
+    <div class="price">¥1,490</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00tw2jn.ygcj41be.g00tw2jn.ygcj5c76/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyum-yum%2F4521329394824%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fyum-yum%2Fi%2F10001127%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="21380" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/yum-yum/cabinet/4521329394824new.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">イーバリュー楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカードゲーム シャイニートレジャーex BOX スカーレット&amp;バイオレット ハイクラスパック シュリンク付き 新品未開封</div>
+    <div class="review">★4.6<span class="count">(264件)</span></div>
+    <div class="price">¥21,380</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fcard002%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000459%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2100" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/09967031/imgrc0114628616.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【5パック】ポケモンカードゲーム スカーレット&amp;バイオレット 拡張パック レイジングサーフ ポケカ トレカ カードゲーム ・レイジングサーフ 5パックセット</div>
+    <div class="review">★4.6<span class="count">(263件)</span></div>
+    <div class="price">¥2,100</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fpsa-mini%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000061%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2040" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/strage/11045186/00psaminisamune02.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SPICA トレカサプライ 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">psa 収納 ケース 鑑定 ARS デッキケース トレカケース カードケース 保護ケース psa鑑定 psa10 収納ケース psaスリーブ ごと収納 ストレージボックス ポケモンカードケース ポケカ topps mlb bbm ワンピースカード 遊戯王 オリパ コレクション トレーディングカード</div>
+    <div class="review">★4.8<span class="count">(248件)</span></div>
+    <div class="price">¥2,040</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2F10000328%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000328%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1700" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/09967031/imgrc0113065398.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【即納】5パックセット 新品未開封 ポケモンカードゲーム スカーレット&amp;バイオレット ・クレイバースト バラ売り ポケカ トレーディングカード</div>
+    <div class="review">★4.4<span class="count">(242件)</span></div>
+    <div class="price">¥1,700</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00unq6n.ygcj4a6a.g00unq6n.ygcj5c5d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsyochikudo12%2Fpokemontera%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fsyochikudo12%2Fi%2F10000049%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="3580" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/syochikudo12/cabinet/11113845/11113850/imgrc0102809558.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">松竹堂</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【最強配送利用可能！】 ポケモンカード ハイクラスパック テラスタルフェスex 2~6パック 年末年始 プレゼント</div>
+    <div class="review">★4.6<span class="count">(231件)</span></div>
+    <div class="price">¥3,580</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fterasutaru929%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000900%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="6250" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/10620272/imgrc0123053424.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【即納】ポケモンカードゲーム パック スカーレット＆バイオレット ハイクラスパック テラスタルフェスex ばら売り ポケカ 5パック～15パック カードゲーム　全国送料無料・テラスタルフェス</div>
+    <div class="review">★4.4<span class="count">(224件)</span></div>
+    <div class="price">¥6,250</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00tysvn.ygcj44b4.g00tysvn.ygcj5703/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fykstore%2Fkore3%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fykstore%2Fi%2F10000393%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2580" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/ykstore/cabinet/11565317/klke.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">YKSTORE 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">＼楽天ランキング1位／【動画あり】 コレクトブック 大容量 トレカケース シール帳 推し活 オタ活 ヲタ活 A5 6穴 バインダー 推しカラー 推し色 リフィル キラキラ ラメ トレカ 収納 トレカ収納 デコ チェキ 写真 手帳 透明 ポケカ k-pop アイドル 遊戯王 コレクション</div>
+    <div class="review">★4.9<span class="count">(219件)</span></div>
+    <div class="price">¥2,580</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Ffile-toploader%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000005%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2560" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/cardfile/toploader-file/toploader1.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SPICA トレカサプライ 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">カードファイル トップローダー 収納 112枚 トレカファイル カードローダー 収納ケース 4ポケット フルプロテクト 硬質ケース トレカ ケース バインダー カードスリーブ ポケモンカード ポケカ オリパ ワンピースカード 遊戯王 デュエマ mtg topps bbm トレーディングカード</div>
+    <div class="review">★4.8<span class="count">(215件)</span></div>
+    <div class="price">¥2,560</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fstrage-box%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000007%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="3040" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/strage/11931397/sameneil.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SPICA トレカサプライ 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">SPICA マルチストレージボックス デッキケース PUレザー マグネットローダー 大容量 収納 ケース トレカ 持ち運び 収納ケース ストレージボックス トレカケース box カードケース カードボックス スリーブ ポケカ ポケモンカード ワンピースカード 遊戯王 デュエマ</div>
+    <div class="review">★4.8<span class="count">(209件)</span></div>
+    <div class="price">¥3,040</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fcardsaver%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000009%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1580" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/cardsaver/11389043/saver600.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SPICA トレカサプライ 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">SPICA カードセーバー 60枚 PSA 鑑定 収納 ケース 保護 提出 カードセイバー カードセーバー1 トレカケース 収納ケース スリーブ カードホルダー BGS PSA10 ポケカ 遊戯王 ワンピースカード ポケモンカード トレカ トレーディングカード コレクション 保管</div>
+    <div class="review">★4.9<span class="count">(208件)</span></div>
+    <div class="price">¥1,580</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ulf9n.ygcj4d8a.g00ulf9n.ygcj5647/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdiaxino%2F2025-0315-35-magnetloader-4%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fdiaxino%2Fi%2F10000028%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1280" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/diaxino/cabinet/11905539/imgrc0107506845.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">DIAXINO ディアクシーノ 公式</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【楽天1位獲得!】【レビューでスタンドプレゼント!】 マグネットローダー ポケモンカード ケース ローダー ポケカカード ケース トレーディングカード ケース トレカ 35pt トレカケース カードローダー スタンド ローダー カード スリーブ ディスプレイ 収納</div>
+    <div class="review">★4.8<span class="count">(186件)</span></div>
+    <div class="price">¥1,280</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fmegastart48229%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10001034%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="980" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/10620272/imgrc0128211141.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカード メガブレイブ メガシンフォニア 2パック 6パック 10パック 各セット スカーレット&amp;バイオレット 全国送料無料</div>
+    <div class="review">★4.5<span class="count">(183件)</span></div>
+    <div class="price">¥980</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00unq6n.ygcj4a6a.g00unq6n.ygcj5c5d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsyochikudo12%2Fmegadream3-5%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fsyochikudo12%2Fi%2F10000175%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2100" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/syochikudo12/cabinet/11113845/11113850/imgrc0110008085.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">松竹堂</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【最強翌日配送利用可能】 ポケモンカード ハイクラスパック MEGAドリームex 2-5パック 正規品 メガドリームex パック</div>
+    <div class="review">★4.7<span class="count">(182件)</span></div>
+    <div class="price">¥2,100</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fbatl48229%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000936%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1680" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/10620272/imgrc0129736500.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカード バトルパートナーズ パック 拡張パック ポケカ 5パック ばら売り 10パック 全国送料無料・バトルパートナーズ</div>
+    <div class="review">★4.3<span class="count">(180件)</span></div>
+    <div class="price">¥1,680</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fmegabriv819%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10001035%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1330" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/10620272/imgrc0128211141.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカード メガブレイブ メガシンフォニア 5パック 10パック 各セット スカーレット&amp;バイオレット 全国送料無料</div>
+    <div class="review">★4.1<span class="count">(179件)</span></div>
+    <div class="price">¥1,330</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Froketto4923020%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000969%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="3100" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/imgrc0128054304.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカード 拡張パック ロケット団の栄光 5パック 10パック 15パック バラ売り ポケカ カードゲーム ・ロケット団の栄光 全国送料無料</div>
+    <div class="review">★4.3<span class="count">(165件)</span></div>
+    <div class="price">¥3,100</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00u7dxn.ygcj4585.g00u7dxn.ygcj509e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoysbox2nd%2Fcardpack-p-039%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Ftoysbox2nd%2Fi%2F10014656%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2470" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/toysbox2nd/cabinet/11800184/28.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">ソフィアゲート</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">3月14日発売 予約 レビュー特典あり 5パック 10パック ばら売り 熱風のアリーナ ポケモンカードゲーム スカーレット&amp;バイオレット 拡張パック BOX ポケカ ボックス</div>
+    <div class="review">★4.2<span class="count">(162件)</span></div>
+    <div class="price">¥2,470</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00tw2jn.ygcj41be.g00tw2jn.ygcj5c76/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyum-yum%2Fpokemega-v%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fyum-yum%2Fi%2F10001773%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="10380" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/yum-yum/cabinet/pokemega-v.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">イーバリュー楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカードゲーム メガブレイブ メガシンフォニア BOX MEGA 拡張パック 新品未開封 シュリンク付き</div>
+    <div class="review">★4.7<span class="count">(161件)</span></div>
+    <div class="price">¥10,380</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fkuzi-443%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000572%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="3100" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/09967031/imgrc0115816521.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">第1弾 ポケモンカード プレミアムパック ポケモンカードくじ 全100口 イーブイヒーローズ ポケモンカード151 VSTARユニバース 白熱のアルカナ トレカ・プレミアムくじ</div>
+    <div class="review">★4.2<span class="count">(156件)</span></div>
+    <div class="price">¥3,100</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uhywn.ygcj4e2b.g00uhywn.ygcj551d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsiba-98%2F3sd-01%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fsiba-98%2Fi%2F10000000%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="3080" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/siba-98/cabinet/09993732/09993735/imgrc0120753321.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SIBA 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">アクリル本舗 マグネット ローダー 3連 スクリューダウン UVカット ディスプレイケース スタンド 付き カードケース トレカ 遊戯王 ポケモンカード ポケカ トレーディングカード トレカ 対応 3枚用 日焼け 防止 飾る 保管 展示 収納 クリア 透明 ブラック 黒</div>
+    <div class="review">★4.8<span class="count">(150件)</span></div>
+    <div class="price">¥3,080</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00u7dxn.ygcj4585.g00u7dxn.ygcj509e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoysbox2nd%2Fcardpack-p-038%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Ftoysbox2nd%2Fi%2F10014464%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1760" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/toysbox2nd/cabinet/imgrc0112739548.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">ソフィアゲート</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">レビューくじ特典あり！ 1月24日発売 5パック 10パック ばら売り 新品未開封 バトルパートナーズ ポケモンカードゲーム スカーレット&amp;バイオレット 拡張パック ポケカ BOX</div>
+    <div class="review">★4.3<span class="count">(147件)</span></div>
+    <div class="price">¥1,760</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00tw2jn.ygcj41be.g00tw2jn.ygcj5c76/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyum-yum%2F4521329362342%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fyum-yum%2Fi%2F10001530%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="23780" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/yum-yum/cabinet/4521329362342.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">イーバリュー楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカードゲーム テラスタルフェスex BOX スカーレット&amp;バイオレット ハイクラスパック 新品未開封 シュリンク付き</div>
+    <div class="review">★4.6<span class="count">(147件)</span></div>
+    <div class="price">¥23,780</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00unq6n.ygcj4a6a.g00unq6n.ygcj5c5d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsyochikudo12%2Finfernox%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fsyochikudo12%2Fi%2F10000137%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1780" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/syochikudo12/cabinet/11113845/11113850/imgrc0109048358.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">松竹堂</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【最強翌日配送利用可能！】 ポケモンカードMEGA 拡張パック インフェルノX 5-10パックセット</div>
+    <div class="review">★4.6<span class="count">(145件)</span></div>
+    <div class="price">¥1,780</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ujd5n.ygcj4b37.g00ujd5n.ygcj58e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhankuroom%2Fcardpack-p-043044%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fhankuroom%2Fi%2F10014928%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1380" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/hankuroom/cabinet/megarebyu.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">hankuroom 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">5パック/10パック/15パック ばら売り メガブレイブ/メガシンフォニア ポケモンカードゲーム MEGA メガ 拡張パック BOX ボックス</div>
+    <div class="review">★4.3<span class="count">(144件)</span></div>
+    <div class="price">¥1,380</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00tw2jn.ygcj41be.g00tw2jn.ygcj5c76/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyum-yum%2F4521329427768v%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fyum-yum%2Fi%2F10001742%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="26880" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/yum-yum/cabinet/4521329427768v-2.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">イーバリュー楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカードゲーム ブラックボルト ホワイトフレア BOX スカーレット&amp;バイオレット 拡張パック デラックス 新品未開封 シュリンク付き</div>
+    <div class="review">★4.6<span class="count">(143件)</span></div>
+    <div class="price">¥26,880</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fpsa-strage%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000013%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2940" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/strage/10593132/samunepsastrage3.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SPICA トレカサプライ 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">SPICA トレカ PSA 収納 ケース 44枚 保管 鑑定 ストレージボックス トレカケース BGS ARS ボックス デッキケース マグネットローダー カードケース box レザー スリーブ PSA10 ポケモンカード ポケカ ワンピースカード 遊戯王 デュエマ トレーディングカード コレクション</div>
+    <div class="review">★4.8<span class="count">(143件)</span></div>
+    <div class="price">¥2,940</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uijyn.ygcj4aa0.g00uijyn.ygcj5038/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fquaes%2Fr0006%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fquaes%2Fi%2F10000009%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="899" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/quaes/cabinet/10445132/imgrc0107226668.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">QUAES</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">カードファイル トレカ ファイル ポケモンカード 360枚 収納 カードファイル 大容量 横入れ ケース ポケット カード フォルダー 9ポケット トレカケース カードスリーブ ポケカ コレクションファイル トレカ収納 収納ケース</div>
+    <div class="review">★4.7<span class="count">(143件)</span></div>
+    <div class="price">¥899</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fatacche-psa%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000011%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="7180" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/attachecase/10586439/psaatacche3.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SPICA トレカサプライ 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">SPICA アタッシュケース PSA 鑑定 収納 ケース 保護 BGS ARS トレカケース スリーブ 収納ケース ストレージボックス PSA10 PSA9 カードセーバー 1 ポケカ ポケモンカード ワンピースカード 遊戯王 デュエマ デッキケース topps bbm トレーディングカード コレクション</div>
+    <div class="review">★4.8<span class="count">(139件)</span></div>
+    <div class="price">¥7,180</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00unq6n.ygcj4a6a.g00unq6n.ygcj5c5d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsyochikudo12%2Fpokemonbattlebara%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fsyochikudo12%2Fi%2F10000072%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1880" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/syochikudo12/cabinet/11113845/11113850/imgrc0103794227.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">松竹堂</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【最強翌日配送利用可能】 ポケモンカード バトルパートナーズ 5~10パックセット スカーレット&amp;バイオレット 拡張パック ポケカ バラパック</div>
+    <div class="review">★4.4<span class="count">(138件)</span></div>
+    <div class="price">¥1,880</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ujd5n.ygcj4b37.g00ujd5n.ygcj58e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhankuroom%2Fcardpack-p-041042%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fhankuroom%2Fi%2F10014870%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="3980" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/hankuroom/cabinet/goq001/6975_1.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">hankuroom 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">選べる 5パック 10パック 15パック ばら売り ブラックボルト ホワイトフレア ポケモンカードゲーム スカーレット&amp;バイオレット 拡張パック BOX ボックス</div>
+    <div class="review">★4.5<span class="count">(137件)</span></div>
+    <div class="price">¥3,980</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2F10000300%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000300%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1980" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/09967031/imgrc0112735715.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカードゲーム スカーレット＆バイオレット 強化拡張パック トリプレットビート シングルパック 3月10日発売 ポケカ バラ売り トレカ 新弾 BOX 1パック5枚入り・トリプレットビート</div>
+    <div class="review">★4.3<span class="count">(130件)</span></div>
+    <div class="price">¥1,980</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fnepuu3002922%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10000947%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2480" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/10620272/imgrc0129736559.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">ポケモンカード 熱風のアリーナ スカーレット&amp;バイオレット ポケカ 5パック 10パック ばら売り 拡張パック BOX ・熱風のアリーナ</div>
+    <div class="review">★3.7<span class="count">(129件)</span></div>
+    <div class="price">¥2,480</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uitqn.ygcj476a.g00uitqn.ygcj5326/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcard-shop-alpha%2Fpcg-rarity-sar-2%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fcard-shop-alpha%2Fi%2F10000517%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="2980" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/card-shop-alpha/cabinet/10265806/10270884/10270948/pcg-rarity-sar-1.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">kamogawa</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【レビュー特典あり！】 ポケカ オリパ 【 SAR 確定 】 全500口 ALPHAのオリパ</div>
+    <div class="review">★4.1<span class="count">(129件)</span></div>
+    <div class="price">¥2,980</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fmgc-uv-sleeve%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000091%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="970" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/uv-sleeve/11699056/0000mgcsleeve.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SPICA トレカサプライ 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">マグネットローダー 収納 スリーブ UVカット 50枚 カードスリーブ トレカスリーブ トレカケース トレカ ローダー 収納 ケース 35pt デッキケース 保護 保管 ポケカスリーブ ポケモンカードケース ワンピースカード 遊戯王 オリパ トレーディングカード コレクション</div>
+    <div class="review">★4.8<span class="count">(128件)</span></div>
+    <div class="price">¥970</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ukzyn.ygcj4538.g00ukzyn.ygcj5653/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspica-tcg%2Fdeckcase%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fspica-tcg%2Fi%2F10000006%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1780" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/spica-tcg/cabinet/deckcase/13250059/0dk.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">SPICA トレカサプライ 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">SPICA レザー調 デッキケース トレカ 220枚 収納 ケース 大容量 トレカケース box 収納ケース 持ち運び スリーブ ストレージボックス ポケモンカード ポケカ オリパ 遊戯王 デュエマ ワンピースカード ヴァイスシュヴァルツ ドラゴンボールヒーローズ トレーディングカード</div>
+    <div class="review">★4.7<span class="count">(124件)</span></div>
+    <div class="price">¥1,780</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00ujd5n.ygcj4b37.g00ujd5n.ygcj58e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhankuroom%2Fcardpack-p-038-10%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fhankuroom%2Fi%2F10014815%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1760" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/hankuroom/cabinet/imgrc0128175925.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">hankuroom 楽天市場店</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">レビュー特典あり 10パック 5パック ばら売り 新品未開封 バトルパートナーズ ポケモンカードゲーム 拡張パック ポケカ BOX</div>
+    <div class="review">★4.3<span class="count">(121件)</span></div>
+    <div class="price">¥1,760</div>
+  </div>
+</a>
+
+<a class="card" href="https://hb.afl.rakuten.co.jp/hgc/g00uaewn.ygcj4255.g00uaewn.ygcj55e3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbansyuselect%2Fmunikisu8541%2F&amp;m=http%3A%2F%2Fm.rakuten.co.jp%2Fbansyuselect%2Fi%2F10001115%2F&amp;rafcid=wsc_i_is_1bd50440-c0d3-4021-8075-6c85064c9c41" target="_blank" rel="noopener sponsored" data-price="1400" data-checked-at="">
+  <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/bansyuselect/cabinet/09256555/10620272/imgrc0127996486.jpg?_ex=400x400" alt="" loading="lazy">
+  <div class="body">
+    <div class="top">
+      <span class="brand">播州セレクト</span>
+      <span class="badge rakuten">楽天市場</span>
+    </div>
+    <div class="title">【レビューキャンペーン実施中】ポケモンカード ムニキスゼロ バラ売り ポケカ 5パック 10パック 15パック 拡張パック ・ムニキス ポケカ 全国送料無料</div>
+    <div class="review">★4.2<span class="count">(121件)</span></div>
+    <div class="price">¥1,400</div>
+  </div>
+</a>
+
+</div>
+<script type="application/json" id="extra-products">[]</script>
+<button type="button" class="load-more" id="load-more" style="display:none;">もっと見る</button>
+<p class="empty" id="no-results" style="display:none;">該当する商品が見つかりませんでした。</p>
+<p class="pr-note">本ページのリンクには一部アフィリエイトリンクが含まれます(#PR)。価格・在庫状況は変動する場合があります。</p>
+<footer class="site-footer">
+<a href="blog.html">ブログ</a>|<a href="about.html">運営者情報</a>|<a href="privacy.html">プライバシーポリシー</a>
+</footer>
+</div>
+<script>
+(function () {
+  var input = document.getElementById('search-box');
+  var sortSelect = document.getElementById('sort-select');
+  var priceMin = document.getElementById('price-min');
+  var priceMax = document.getElementById('price-max');
+  var list = document.getElementById('product-list');
+  var noResults = document.getElementById('no-results');
+  var countEl = document.getElementById('search-count');
+  var loadMoreBtn = document.getElementById('load-more');
+  var PAGE_SIZE = 60;
+  var visibleLimit = PAGE_SIZE;
+  var PLATFORM_LABELS = {"rakuten": "楽天市場", "yahoo": "Yahoo!ショッピング"};
+  var PLACEHOLDER_IMAGE = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72'%3E%3Crect width='72' height='72' fill='%23eee'/%3E%3C/svg%3E";
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c];
+    });
+  }
+
+  function formatPrice(p) {
+    return (p === null || p === undefined) ? '価格不明' : ('¥' + p.toLocaleString('en-US'));
+  }
+
+  // ジャンル内商品数が多い(数百〜千件)ページでは、PAGE_SIZE件を超えた分をHTMLとして
+  // 書き出さずJSON(#extra-products)にしてページ容量を抑えている。この超過分は「実際に検索結果や
+  // もっと見るボタンで表示が必要になった時」に初めてDOM化する(遅延生成)。ページを開いた直後に
+  // 全件分のDOM要素を作ってしまうと、HTMLを軽くした意味が薄れてしまうため。
+  function buildCardEl(item) {
+    var a = document.createElement('a');
+    a.className = 'card';
+    a.href = item.url;
+    a.target = '_blank';
+    a.rel = 'noopener sponsored';
+    a.setAttribute('data-price', item.price === null || item.price === undefined ? '' : item.price);
+    a.setAttribute('data-checked-at', item.checked_at || '');
+    var badgeHtml = item.badge ? '<span class="event-badge">' + escapeHtml(item.badge) + '</span>' : '';
+    var reviewHtml = item.review_count > 0
+      ? '<div class="review">★' + item.review_average.toFixed(1) + '<span class="count">(' + item.review_count.toLocaleString('en-US') + '件)</span></div>'
+      : '';
+    a.innerHTML = badgeHtml +
+      '<img src="' + escapeHtml(item.image_url || PLACEHOLDER_IMAGE) + '" alt="" loading="lazy">' +
+      '<div class="body"><div class="top"><span class="brand">' + escapeHtml(item.brand) + '</span>' +
+      '<span class="badge ' + item.platform + '">' + escapeHtml(PLATFORM_LABELS[item.platform] || item.platform) + '</span></div>' +
+      '<div class="title">' + escapeHtml(item.product_name) + '</div>' +
+      reviewHtml +
+      '<div class="price">' + formatPrice(item.price) + '</div></div>';
+    return a;
+  }
+
+  // レコードは「サーバー側で既にDOM化済み(.el)」または「JSONデータのみ(.item、.elはensureElで初めて作る)」
+  var records = Array.prototype.slice.call(list.querySelectorAll('.card')).map(function (el) {
+    return {
+      el: el,
+      item: null,
+      price: parseInt(el.getAttribute('data-price'), 10),
+      checkedAt: el.getAttribute('data-checked-at') || '',
+      text: el.textContent.toLowerCase()
+    };
+  });
+
+  var extraDataEl = document.getElementById('extra-products');
+  if (extraDataEl && extraDataEl.textContent.trim()) {
+    JSON.parse(extraDataEl.textContent).forEach(function (item) {
+      records.push({
+        el: null,
+        item: item,
+        price: item.price === null || item.price === undefined ? NaN : item.price,
+        checkedAt: item.checked_at || '',
+        text: (item.brand + ' ' + item.product_name).toLowerCase()
+      });
+    });
+  }
+
+  if (records.length === 0) return;
+
+  function ensureEl(record) {
+    if (!record.el) {
+      record.el = buildCardEl(record.item);
+      record.el.style.display = 'none';
+      list.appendChild(record.el);
+    }
+    return record.el;
+  }
+
+  function applyFilters() {
+    var q = input.value.trim().toLowerCase();
+    var min = priceMin.value ? parseInt(priceMin.value, 10) : null;
+    var max = priceMax.value ? parseInt(priceMax.value, 10) : null;
+    var filtering = !!q || min !== null || max !== null;
+
+    var matched = records.filter(function (r) {
+      if (q && r.text.indexOf(q) === -1) return false;
+      if (min !== null && (isNaN(r.price) || r.price < min)) return false;
+      if (max !== null && (isNaN(r.price) || r.price > max)) return false;
+      return true;
+    });
+
+    var limit = filtering ? matched.length : visibleLimit;
+    var shownRecords = matched.slice(0, limit);
+    var shownSet = shownRecords;
+
+    records.forEach(function (r) {
+      if (r.el && shownSet.indexOf(r) === -1) r.el.style.display = 'none';
+    });
+    shownRecords.forEach(function (r) {
+      var el = ensureEl(r);
+      el.style.display = '';
+      list.appendChild(el);
+    });
+
+    noResults.style.display = shownRecords.length === 0 ? '' : 'none';
+    countEl.textContent = filtering ? (shownRecords.length + '件表示中(全' + matched.length + '件中)') : '';
+    loadMoreBtn.style.display = (!filtering && matched.length > limit) ? '' : 'none';
+  }
+
+  function applySort() {
+    var mode = sortSelect.value;
+    var sorted = records.slice();
+    if (mode === 'price-asc') {
+      sorted.sort(function (a, b) { return (isNaN(a.price) ? 0 : a.price) - (isNaN(b.price) ? 0 : b.price); });
+    } else if (mode === 'price-desc') {
+      sorted.sort(function (a, b) { return (isNaN(b.price) ? 0 : b.price) - (isNaN(a.price) ? 0 : a.price); });
+    } else {
+      sorted.sort(function (a, b) { return b.checkedAt.localeCompare(a.checkedAt); });
+    }
+    records = sorted;
+    applyFilters();
+  }
+
+  input.addEventListener('input', applyFilters);
+  priceMin.addEventListener('input', applyFilters);
+  priceMax.addEventListener('input', applyFilters);
+  sortSelect.addEventListener('change', applySort);
+  loadMoreBtn.addEventListener('click', function () {
+    visibleLimit += PAGE_SIZE;
+    applyFilters();
+  });
+
+  applyFilters();
+})();
+</script>
+</body>
+</html>
